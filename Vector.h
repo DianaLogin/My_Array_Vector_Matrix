@@ -27,8 +27,10 @@ public:
 	{
 		data = new T[size];
 	}
-	Vector(const Vector& other) : size(other.size), data(nullptr)
+	Vector(const Vector& other) : size(other.size)
 	{
+		data = nullptr;
+
 		if (other.size > 0) 
 		{
 			data = new T[other.size];

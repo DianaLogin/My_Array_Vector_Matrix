@@ -130,6 +130,8 @@
   <ItemGroup>
     <ClInclude Include="Array.h" />
     <ClInclude Include="Array2D.h" />
+    <ClInclude Include="AVX_Matrix.h" />
+    <ClInclude Include="AVX_Vector.h" />
     <ClInclude Include="Matrix.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
